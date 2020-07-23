@@ -9,7 +9,21 @@
 }
 body {
     font-family: Roboto;
-    background-color: #ffffff;
+    margin: 0px;
+    overflow: none;
+}
+h1, h2, h3
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+footer {
+    background-color: var(--background-footer);
+}
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
 }
 
 .efect-title {
@@ -23,12 +37,14 @@ body {
     background-color: black;
     color: #ffffff;
 }
+/*ЛОГОТИП*/
 .web-logo{
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+    margin-right: 85px;
 }
 .section-title{
     font-weight: 700;
@@ -37,9 +53,6 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-}
-.blue {
-    color: var(--text-blue-color);
 }
 /*telephone, imail*/
 .contact{
@@ -58,7 +71,7 @@ body {
     color: #2196F3;
 }
 
-.list a {
+.link a {
     text-decoration: none;
 }
 .header-text {
@@ -70,16 +83,31 @@ body {
 
     color: var(--text-subtitle-color);
 }
-ul {
-    list-style: none;
+
+.button-hero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 10px 32px;
+
+    border-radius: 4px;
+    background-color: var(--background-butten-color);
+    color: #ffffff;
 }
 .button {
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
+    padding: 10px;
+    padding-left: 29px;
+    padding-right: 62px;
 
     background-color: var(--background-butten-color);
     color: #ffffff;
+}
+.button-centered {
+    text-align: center;
+    margin-top: 30px;
 }
 .subtitle-text {
     font-weight: 700;
@@ -90,6 +118,8 @@ ul {
     color: var(--text-subtitle-color);
 }
 .main-text{
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -97,13 +127,12 @@ ul {
 
     color: var(--main-text);
 }
-.bg-footer {
-    background-color: var(--background-footer);
-}
 .contact-subtitle {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    text-align: center;
+
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -111,6 +140,7 @@ ul {
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
+    text-align: center;
 
     letter-spacing: 0.03em;
     color: #757575;
@@ -130,4 +160,161 @@ ul {
     letter-spacing: 0.03em;
 
     color: #757575;
+}
+/*Расстановка*/
+.section {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list-line {
+    display: flex;
+}
+/*section, header{
+    background-color: red;
+}*/
+
+.list-сustomer {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-сustomer .item {
+    margin-right: 30px;
+    margin-bottom: 94px;
+    margin-top: 50px;
+}
+.list-сustomer .item:last-child {
+    margin-right: 0px;
+}
+/*Списки в header и footer*/
+.list-line .item {
+    margin-right: 50px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+.list-line .item:last-child {
+    margin-right: 0px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+.main-nav .list-line {
+    padding-left: 0px;
+}
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.auth-nav {
+    display: flex;
+    margin-left: auto;
+}
+.auth-nav .item {
+    margin-right: 30px;
+}
+.auth-nav .item:last-child {
+    margin-right: 0px;
+}
+.icon-style {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.icon-style .item {
+    width: 270px;
+    margin-right: 30px;
+}
+.icon-style .item:last-child {
+    margin-right: 0px;
+}
+.list-soc {
+    display: flex;
+    padding-left: 0px;
+}
+.list-soc .item {
+    margin-right: 10px;
+    width: 44px;
+    height: 44px;
+}
+.list-soc .item:last-child {
+    margin-right: 0px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio-list .item {
+    width: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.portfolio-list .item:nth-child(3n){
+    margin-right: 0px;
+}
+.portfolio-list .item:nth-last-child(-n + 3){
+    margin-bottom: 0px;
+}
+.button-list {
+    display: flex;
+    padding-left: 0px;
+}
+.button-list .item {
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+.button-list .item:last-child {
+    margin-right: 0px;
+}
+
+.button-portfolio {
+    background: #F5F4FA;
+    border-radius: 4px;
+    padding: 6px 22px;
+    border: 0px;
+}
+.button-margin {
+    width: 611px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.comand-style {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin-top: 50px;
+}
+.comand-style .item {
+    width: 270px;
+    margin-right: 30px;
+}
+.comand-style .item:last-child {
+    margin-right: 0px;
+}
+.section > .section-comand {
+    margin-top: 188px;
+    margin-bottom: 188px;
+}
+.section > .icon-style {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.list-project {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.list-project .item {
+    margin-right: 30px;
+    width: 370px;
+}
+.list-project .item:last-child {
+    margin-right: 0px;
 }
