@@ -240,8 +240,6 @@ ul {
 }
 .list-soc .item {
     margin-right: 10px;
-    width: 44px;
-    height: 44px;
 }
 .list-soc .item:last-child {
     margin-right: 0px;
@@ -318,3 +316,50 @@ ul {
 .list-project .item:last-child {
     margin-right: 0px;
 }
+footer .section {
+    display: flex;
+}
+.section .footer-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+    margin-right: 69px;
+}
+.footer-adress {
+    padding-left: 0px;
+    margin-top: 20px;
+}
+.footer-adress .item {
+    margin-bottom: 9px;
+}
+.footer-adress .item:last-child {
+    margin-bottom: 0px;
+}
+.footer-adress .item:first-child {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    font-style: normal;
+}
+.footer-soc {
+    margin-top: 72px;
+}
+.footer-soc .list-soc .item {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.footer-soc .list-soc .item:last-child {
+    margin-right: 0px;
+}
+.footer-link {
+    margin-top: 72px;
+    margin-left: 94px;
+    margin-bottom: 94px;
+}
+.footer-link .subtitle-text {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
