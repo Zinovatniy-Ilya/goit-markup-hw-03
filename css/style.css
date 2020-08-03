@@ -27,7 +27,7 @@ h1, h2, h3 {
     text-decoration: none;
 }
 .container-portfolio {
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -73,7 +73,7 @@ h1, h2, h3 {
 
 /* Шапка */
 .header-container {
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -159,7 +159,7 @@ h1, h2, h3 {
 }
 /* Иконки */
 .icon-container {
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -199,7 +199,7 @@ h1, h2, h3 {
 }
 /* Занятия */
 .project-container {
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -228,7 +228,7 @@ h1, h2, h3 {
     padding-bottom: 95px;
 }
 .comand-container {
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -293,7 +293,7 @@ border-radius: 0px 0px 4px 4px;
 }
 /* Клиенты */
 .costomer-container{
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -318,7 +318,7 @@ border-radius: 0px 0px 4px 4px;
 }
 /* Подвал */
 .footer-container {
-    width: 1170px;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
