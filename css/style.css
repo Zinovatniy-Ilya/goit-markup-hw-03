@@ -26,15 +26,6 @@ h1, h2, h3 {
 .link a {
     text-decoration: none;
 }
-.container-portfolio {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 95px;
-    padding-top: 50px;
-}
 .section-title{
     font-weight: 700;
     font-size: 36px;
@@ -158,15 +149,18 @@ h1, h2, h3 {
     color: #ffffff;
 }
 /* Иконки */
+.icon-section {
+    background-color: #FFFFFF;
+
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
 .icon-container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-
-    padding-top: 95px;
-    padding-bottom: 95px;
 }
 .icon {
     background-color: #F5F4FA;
@@ -198,14 +192,17 @@ h1, h2, h3 {
     color: var(--icon-text);
 }
 /* Занятия */
+.project {
+    background-color: #FFFFFF;
+
+    padding-bottom: 95px;
+}
 .project-container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-
-    padding-bottom: 95px;
 }
 .list-project {
     display: flex;
@@ -292,15 +289,18 @@ border-radius: 0px 0px 4px 4px;
     margin-left: 32px;
 }
 /* Клиенты */
+.costomer {
+    background-color: #FFFFFF;
+
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
 .costomer-container{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-
-    padding-top: 95px;
-    padding-bottom: 95px;
 }
 .list-сustomer {
     padding-left: 0px;
@@ -310,7 +310,6 @@ border-radius: 0px 0px 4px 4px;
 }
 .list-сustomer .item {
     margin-right: 30px;
-    margin-bottom: 94px;
     margin-top: 50px;
 }
 .list-сustomer .item:last-child {
@@ -387,9 +386,13 @@ border-radius: 0px 0px 4px 4px;
 }
 /* Портфолио */
 /* Кнопки */
+.portfolio-button {
+    background-color: #FFFFFF;
+
+    padding-top: 95px;
+}
 .button-margin {
     width: 620px;
-    padding-top: 95px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -427,6 +430,21 @@ border-radius: 0px 0px 4px 4px;
     border-radius: 4px;
 }
 /* Главный контент */
+.portfolio {
+    background-color: #FFFFFF;
+
+    padding-bottom: 95px;
+    padding-top: 50px;
+}
+.container-portfolio {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 95px;
+    padding-top: 50px;
+}
 .portfolio-list {
     padding: 0px;
     display: flex;
