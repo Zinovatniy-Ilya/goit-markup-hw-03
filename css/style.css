@@ -26,6 +26,13 @@ h1, h2, h3 {
 .link a {
     text-decoration: none;
 }
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .section-title{
     font-weight: 700;
     font-size: 36px;
@@ -63,12 +70,9 @@ h1, h2, h3 {
 }
 
 /* Шапка */
-.header-container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .main-nav {
     display: flex;
@@ -95,8 +99,6 @@ h1, h2, h3 {
 }
 .list-line .item {
     margin-right: 50px;
-    margin-bottom: 32px;
-    margin-top: 32px;
 }
 .list-line .item:last-child {
     margin-right: 0px;
@@ -155,13 +157,6 @@ h1, h2, h3 {
     padding-top: 95px;
     padding-bottom: 95px;
 }
-.icon-container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .icon {
     background-color: #F5F4FA;
     padding: 25px 100px;
@@ -197,13 +192,6 @@ h1, h2, h3 {
 
     padding-bottom: 95px;
 }
-.project-container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .list-project {
     display: flex;
     flex-wrap: wrap;
@@ -223,13 +211,6 @@ h1, h2, h3 {
 
     padding-top: 95px;
     padding-bottom: 95px;
-}
-.comand-container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
 }
 .comand-list {
     width: 1200px;
@@ -295,13 +276,6 @@ border-radius: 0px 0px 4px 4px;
     padding-top: 95px;
     padding-bottom: 95px;
 }
-.costomer-container{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .list-сustomer {
     padding-left: 0px;
     padding-right: 0px;
@@ -316,22 +290,24 @@ border-radius: 0px 0px 4px 4px;
     margin-right: 0px;
 }
 /* Подвал */
-.footer-container {
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
-.footer {
+.footer-list {
+    align-items: center;
     display: flex;
     justify-content: space-between;
 }
 .footer-section {
-    margin-top: 60px;
-    margin-bottom: 60px;
     margin-left: 0px;
-    margin-right: 70px;
 }
 .footer-adress {
     padding-left: 0px;
@@ -352,7 +328,7 @@ border-radius: 0px 0px 4px 4px;
     font-style: normal;
 }
 .footer-soc {
-    margin-top: 70px;
+
 }
 .footer-soc .list-soc .item {
     margin-right: 10px;
@@ -364,9 +340,6 @@ border-radius: 0px 0px 4px 4px;
     margin-right: 0px;
 }
 .footer-link {
-    margin-top: 72px;
-    margin-left: 95px;
-    margin-bottom: 95px;
 }
 .footer-link .subtitle-text {
     margin-top: 0px;
